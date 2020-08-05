@@ -77,9 +77,9 @@
           <a href="${repo.html_url}" target="_blank" class=" grey-text text-lighten-2">${repo.name}</a>
         </div>
         <div class="col s6">
-          <span class="new badge gren m-1">Star: ${repo.stargazers_count}</span>
-          <span class="new badge blue m-1">Watch: ${repo.watchers_count}</span>
           <span class="new badge red m-1">Forks: ${repo.watchers_count}</span>
+          <span class="new badge blue m-1">Watch: ${repo.watchers_count}</span>
+          <span class="new badge gren m-1">Star: ${repo.stargazers_count}</span>
         </div>
       </div>
       `;
