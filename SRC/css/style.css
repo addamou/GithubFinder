@@ -1,8 +1,9 @@
 body{
   margin: 0;
   padding: 0;
-  background-image: url('http://incurs.us/sites/default/files/2016-07/github-wallpaper-1.png');
+  background-image: url('/SRC/Image/octocat_darkwood_small.jpg');
   background-size: cover;
+  background-attachment: fixed;
 }
 .avatar {
   width: 100%
