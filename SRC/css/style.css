@@ -1,7 +1,7 @@
 body{
   margin: 0;
   padding: 0;
-  background: url('/SRC/Image/bg-main.jpg');
+  background: url('/bg-main.jpg');
 }
 .avatar {
   width: 100%
