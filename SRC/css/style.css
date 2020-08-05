@@ -1,7 +1,8 @@
 body{
   margin: 0;
   padding: 0;
-  background: url('/bg-main.jpg');
+  background-image: url('http://incurs.us/sites/default/files/2016-07/github-wallpaper-1.png');
+  background-size: cover;
 }
 .avatar {
   width: 100%
