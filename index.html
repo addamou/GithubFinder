@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap et style CSS -->
+    <link rel="stylesheet" href="SRC/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+      integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Github Finder</title>
+  </head>
+  <body>
+    <nav style="background-color:#9e7610 ; border-bottom: solid 5px #1be91b;">
+      <div class="container">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo"><I class="fa fa-github"></I> GITHUB FINDER</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><img src="/SRC/Image/logowd.png" alt="logo"></li>
+        </ul>
+      </div>
+      </div>
+    </nav>
+
+  <div class="container py-2">
+
+    <div class="searchContainer white-text">
+      <h3 class="red-text text-lighten-3">Recherche d'Utilisateurs Github</h3>
+      <p class="lead text-light">Entrer le nom d'utilisateur pour retrouver le profil et les repertoires</p>
+    </div>
+    <div class="row">
+      <form class="col s12">
+        <div class="row">
+          <div class="input-field col s6">
+            <i class="fa fa-pencil-square-o prefix"></i>
+            <textarea id="UserSearch" class="materialize-textarea white-text"></textarea>
+            <label for="UserSearch">Nom d'utilisateur Github...</label>
+          </div>
+        </div>
+      </form>
+    </div>
+    <br>
+      <div id="profile"></div>
+      <div id="repos">
+      </div> 
+  </div>
+
+  <div class="footer text-light text-center" style="background-color:#9e7610 ; border-top: solid 5px #1be91b;">
+    <p class="py-3"><i class="fa fa-copyright mx-1" aria-hidden="true"> <img src="/SRC/Image/logowd.png" alt="logo"> Créer Par Adamou Halidou</i>CODELOCCOL 2020</p>
+  </div>
+  <!--container -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="SRC/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" 
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+   <script src="SRC/js/github.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </body>
+</html>

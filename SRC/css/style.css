@@ -1,0 +1,16 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url('/SRC/Image/bg-main.jpg');
+}
+.avatar {
+  width: 100%
+}
+
+.profile {
+  margin-top: 10px;
+}
+
+img{
+  max-width: 25px;
+}
